@@ -38,4 +38,8 @@ public class AdminController {
         mav.addObject("user",user);
         return mav;
     }
+    
+    public static void main(String[] args) {
+		System.out.println("===========");
+	}
 }
